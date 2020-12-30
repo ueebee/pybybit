@@ -277,7 +277,7 @@ class Inverse:
         page: int=None,
         limit: int=None) -> requests.Response:
         method = 'GET'
-        path = '/open-api/stop-order/list'
+        path = '/v2/private/stop-order/list'
         query = {
             'stop_order_id': stop_order_id,
             'order_link_id': order_link_id,
